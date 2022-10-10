@@ -1,17 +1,16 @@
-# benchmark
+![](figure-of-some-eye-catching-results)
 
 In this repository, we intend to provide codes and tools for analyzing the performance of `mosec` as well as benchmarking `mosec` with other model serving alternatives.
 
 **Table of Contents**
 
-- [benchmark](#benchmark)
-  - [Preparation](#preparation)
-  - [Exploring how `mosec` optimize serving performance](#exploring-how-mosec-optimize-serving-performance)
-    - [Free lunch from `rust`](#free-lunch-from-rust)
-    - [Batching](#batching)
-    - [Pipelining](#pipelining)
-    - [Serialization](#serialization)
-  - [Comparison results](#comparison-results)
+- [Preparation](#preparation)
+- [Exploring how `mosec` optimizes serving performance](#exploring-how-mosec-optimizes-serving-performance)
+  - [Free lunch from `rust`](#free-lunch-from-rust)
+  - [Batching](#batching)
+  - [Pipelining](#pipelining)
+  - [Serialization](#serialization)
+- [Comparison results](#comparison-results)
 
 ## Preparation
 
@@ -23,7 +22,7 @@ We first install the `benchmark` library locally with the latest `mosec`.
 pip install --upgrade --upgrade-strategy eager -e .
 ```
 
-## Exploring how `mosec` optimize serving performance
+## Exploring how `mosec` optimizes serving performance
 
 ### Free lunch from `rust`
 ### Batching
